@@ -1,0 +1,750 @@
+[package]
+name = "atcoder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# AtCoder 2020年言語アップデート以降に使用できるクレート。
+# 次のページに各クレートについての細かい紹介があります。
+# https://github.com/rust-lang-ja/atcoder-rust-resources/wiki/2020-Update
+
+# 数値型の抽象化、多倍長整数、複素数、分数、及び整数型の拡張
+num = "=0.2.1"
+num-bigint = "=0.2.6"
+num-complex = "=0.2.4"
+num-integer = "=0.1.42"
+num-iter = "=0.1.40"
+num-rational = "=0.2.4"
+num-traits = "=0.2.11"
+
+# `num-traits`の自動実装
+num-derive = "=0.3.0"
+
+# NumPyの`ndarray`のような多次元配列
+ndarray = "=0.13.0"
+
+# 線形代数
+nalgebra = "=0.20.0"
+
+# (線形)代数の抽象化
+alga = "=0.9.3"
+
+# libmのRust実装
+libm = "=0.2.1"
+
+# 乱数
+rand = { version = "=0.7.3", features = ["small_rng"] }
+getrandom = "=0.1.14"
+rand_chacha = "=0.2.2"
+rand_core = "=0.5.1"
+rand_hc = "=0.2.0"
+rand_pcg = "=0.2.1"
+
+# 乱数の分布の追加
+rand_distr = "=0.2.2"
+
+# グラフ
+petgraph = "=0.5.0"
+
+# 挿入順を保持するhash table
+indexmap = "=1.3.2"
+
+# 正規表現
+regex = "=1.3.6"
+
+# staticアイテムの遅延初期化
+lazy_static = "=1.4.0"
+
+# `NotNan<f64>`, `OrderedFloat<f64>`
+ordered-float = "=1.0.2"
+
+# ASCII文字列
+ascii = "=1.0.0"
+
+# permutation
+permutohedron = "=0.2.4"
+
+# スライスの拡張
+superslice = "=1.0.0"
+
+# イテレータの拡張
+itertools = "=0.9.0"
+
+# イテレータの拡張（一次元累積和と浮動小数点数の等差数列）
+itertools-num = "=0.1.3"
+
+# `BTreeMap`, `BTreeSet`, `HashMap`, `HashSet`のリテラル用マクロ
+maplit = "=1.0.2"
+
+# 即席enum `Either<L, R>`
+either = "=1.5.3"
+
+# `BTreeMap`, `BTreeSet`, `HashMap`, `HashSet`, `Vec`の永続データ構造版
+im-rc = "=14.3.0"
+
+# 可変長bit set
+fixedbitset = "=0.2.0"
+
+# 可変長bit set
+bitset-fixed = "=0.1.0"
+
+# 競技プログラミングの入出力サポートその1
+proconio = { version = "=0.3.6", features = ["derive"] }
+
+# 競技プログラミングの入出力サポートその2
+text_io = "=0.1.8"
+
+# 競技プログラミングの入出力サポートその3
+whiteread = "=0.5.0"
+
+# 高速なハッシュ関数
+rustc-hash = "=1.1.0"
+
+# ある長さまでは要素を「直に」持つ可変長配列
+smallvec = "=1.2.0"
+
+# VScodeのスニペットの作成（独自）
+cargo-snippet = "0.4"
+
+
+### 以下, bin領域 ###
+# 2021-12-31 17:22:28.525956
+# 2021-12-31 17:24:05.055163
+[[bin]]
+name = "test_1"
+path = "src/test/1.rs"
+
+# 2022-01-02 22:48:55.827434
+[[bin]]
+name = "abc232_d"
+path = "src/abc232/d.rs"
+
+# 2022-01-03 03:53:09.160747
+[[bin]]
+name = "abc233_c"
+path = "src/abc233/c.rs"
+
+# 2022-01-03 12:46:31.664962
+[[bin]]
+name = "典型90_1"
+path = "src/典型90/1.rs"
+
+# 2022-01-03 20:42:48.335067
+[[bin]]
+name = "典型90_2"
+path = "src/典型90/2.rs"
+
+# 2022-01-03 22:02:12.854831
+[[bin]]
+name = "典型90_4"
+path = "src/典型90/4.rs"
+
+# 2022-01-03 23:49:39.420275
+[[bin]]
+name = "典型90_10"
+path = "src/典型90/10.rs"
+
+# 2022-01-04 02:25:17.946545
+[[bin]]
+name = "典型90_22"
+path = "src/典型90/22.rs"
+
+# 2022-01-04 15:44:27.187640
+[[bin]]
+name = "典型90_24"
+path = "src/典型90/24.rs"
+
+# 2022-01-04 16:26:36.187921
+[[bin]]
+name = "典型90_27"
+path = "src/典型90/27.rs"
+
+# 2022-01-04 20:23:36.529853
+[[bin]]
+name = "典型90_33"
+path = "src/典型90/33.rs"
+
+# 2022-01-04 20:49:17.557072
+[[bin]]
+name = "典型90_38"
+path = "src/典型90/38.rs"
+
+# 2022-01-05 02:12:58.833563
+[[bin]]
+name = "典型90_44"
+path = "src/典型90/44.rs"
+
+# 2022-01-05 02:55:37.846762
+[[bin]]
+name = "典型90_46"
+path = "src/典型90/46.rs"
+
+# 2022-01-05 03:32:20.818654
+[[bin]]
+name = "典型90_48"
+path = "src/典型90/48.rs"
+
+# 2022-01-07 22:59:59.677182
+[[bin]]
+name = "典型90_50"
+path = "src/典型90/50.rs"
+
+# 2022-01-08 09:22:22.468060
+[[bin]]
+name = "abc169_c"
+path = "src/abc169/c.rs"
+
+# 2022-01-08 10:17:44.329680
+[[bin]]
+name = "abc190_c"
+path = "src/abc190/c.rs"
+
+# 2022-01-08 12:13:51.641749
+[[bin]]
+name = "abc197_c"
+path = "src/abc197/c.rs"
+
+# 2022-01-09 02:38:16.459701
+[[bin]]
+name = "abc064_d"
+path = "src/abc064/d.rs"
+
+# 2022-01-09 17:28:41.501699
+[[bin]]
+name = "arc077_d"
+path = "src/arc077/d.rs"
+
+# 2022-01-11 10:47:48.756940
+[[bin]]
+name = "abc077_c"
+path = "src/abc077/c.rs"
+
+# 2022-01-11 12:09:44.589147
+[[bin]]
+name = "libs_bisect"
+path = "src/libs/bisect.rs"
+
+# 2022-01-11 13:47:24.091338
+[[bin]]
+name = "abc177_c"
+path = "src/abc177/c.rs"
+
+# 2022-01-11 14:49:04.177514
+[[bin]]
+name = "abc182_d"
+path = "src/abc182/d.rs"
+
+
+# 2022-01-12 11:47:16.932678
+[[bin]]
+name = "典型90_14"
+path = "src/典型90/14.rs"
+
+# 2022-01-12 12:33:56.376738
+[[bin]]
+name = "abc178_e"
+path = "src/abc178/e.rs"
+
+# 2022-01-13 20:56:56.750440
+[[bin]]
+name = "abc091_c"
+path = "src/abc091/c.rs"
+
+# 2022-01-13 23:08:19.725788
+[[bin]]
+name = "abc051_b"
+path = "src/abc051/b.rs"
+
+# 2022-01-14 11:39:26.868140
+[[bin]]
+name = "abc085_c"
+path = "src/abc085/c.rs"
+
+# 2022-01-14 11:59:08.719430
+[[bin]]
+name = "abc095_c"
+path = "src/abc095/c.rs"
+
+# 2022-01-14 12:17:40.576925
+[[bin]]
+name = "abc112_c"
+path = "src/abc112/c.rs"
+
+# 2022-01-15 22:26:38.148495
+[[bin]]
+name = "abc234_b"
+path = "src/abc234/b.rs"
+
+# 2022-01-16 03:16:35.218381
+[[bin]]
+name = "abc235_c"
+path = "src/abc235/c.rs"
+
+# 2022-01-16 16:26:33.417959
+[[bin]]
+name = "abc234_c"
+path = "src/abc234/c.rs"
+
+# 2022-01-17 11:42:59.041418
+[[bin]]
+name = "abc234_d"
+path = "src/abc234/d.rs"
+
+# 2022-01-18 11:50:04.048463
+[[bin]]
+name = "abc233_d"
+path = "src/abc233/d.rs"
+
+# 2022-01-18 13:37:31.277317
+[[bin]]
+name = "abc231_d"
+path = "src/abc231/d.rs"
+
+# 2022-01-21 13:17:15.744833
+[[bin]]
+name = "abc221_c"
+path = "src/abc221/c.rs"
+
+# 2022-01-22 03:01:28.976798
+[[bin]]
+name = "abc220_c"
+path = "src/abc220/c.rs"
+
+# 2022-01-22 10:32:05.123887
+[[bin]]
+name = "abc219_c"
+path = "src/abc219/c.rs"
+
+# 2022-01-22 12:27:32.692558
+[[bin]]
+name = "abc216_c"
+path = "src/abc216/c.rs"
+
+# 2022-01-22 19:37:54.490660
+[[bin]]
+name = "abc220_d"
+path = "src/abc220/d.rs"
+
+# 2022-01-25 16:35:59.417010
+[[bin]]
+name = "abc236_c"
+path = "src/abc236/c.rs"
+
+# 2022-01-26 03:09:55.572861
+[[bin]]
+name = "abc235_d"
+path = "src/abc235/d.rs"
+
+# 2022-01-26 18:37:50.250181
+[[bin]]
+name = "abc215_d"
+path = "src/abc215/d.rs"
+
+# 2022-01-27 04:27:25.159511
+[[bin]]
+name = "abc225_b"
+path = "src/abc225/b.rs"
+
+# 2022-02-02 09:46:42.972589
+[[bin]]
+name = "abc237_c"
+path = "src/abc237/c.rs"
+
+# 2022-02-03 18:38:08.091810
+[[bin]]
+name = "abc237_d"
+path = "src/abc237/d.rs"
+
+# 2022-02-10 19:56:22.343063
+[[bin]]
+name = "abc148_d"
+path = "src/abc148/d.rs"
+
+# 2022-02-10 20:06:20.924228
+[[bin]]
+name = "abc053_b"
+path = "src/abc053/b.rs"
+
+# 2022-02-11 03:41:46.978363
+[[bin]]
+name = "agc003_a"
+path = "src/agc003/a.rs"
+
+# 2022-02-11 03:50:10.350597
+[[bin]]
+name = "abc155_c"
+path = "src/abc155/c.rs"
+
+# 2022-02-11 04:24:04.580866
+[[bin]]
+name = "ms2019_c"
+path = "src/ms2019/c.rs"
+
+# 2022-02-11 16:37:30.314150
+[[bin]]
+name = "abc058_b"
+path = "src/abc058/b.rs"
+
+# 2022-02-11 17:12:49.420258
+[[bin]]
+name = "abc128_b"
+path = "src/abc128/b.rs"
+
+# 2022-02-12 17:18:12.887060
+[[bin]]
+name = "agc037_a"
+path = "src/agc037/a.rs"
+
+# 2022-02-12 17:37:10.296470
+[[bin]]
+name = "abc097_b"
+path = "src/abc097/b.rs"
+
+# 2022-02-14 22:15:11.561880
+[[bin]]
+name = "abc238_a"
+path = "src/abc238/a.rs"
+
+[[bin]]
+name = "abc238_b"
+path = "src/abc238/b.rs"
+
+[[bin]]
+name = "abc238_c"
+path = "src/abc238/c.rs"
+
+[[bin]]
+name = "abc238_d"
+path = "src/abc238/d.rs"
+
+# 2022-02-16 17:03:01.311006
+[[bin]]
+name = "agc040_a"
+path = "src/agc040/a.rs"
+
+# 2022-02-18 00:16:06.809897
+[[bin]]
+name = "abc126_c"
+path = "src/abc126/c.rs"
+
+# 2022-02-18 01:15:16.961526
+[[bin]]
+name = "abc157_c"
+path = "src/abc157/c.rs"
+
+# 2022-02-18 01:54:31.940290
+[[bin]]
+name = "agc015_a"
+path = "src/agc015/a.rs"
+
+# 2022-02-18 04:42:42.762125
+[[bin]]
+name = "arc086_c"
+path = "src/arc086/c.rs"
+
+# 2022-02-23 02:51:07.546258
+[[bin]]
+name = "abc234_e"
+path = "src/abc234/e.rs"
+
+# 2022-02-24 23:12:24.313328
+[[bin]]
+name = "agc013_a"
+path = "src/agc013/a.rs"
+
+# 2022-02-25 12:25:25.943459
+[[bin]]
+name = "agc006_a"
+path = "src/agc006/a.rs"
+
+# 2022-02-25 12:52:08.902660
+[[bin]]
+name = "abc154_d"
+path = "src/abc154/d.rs"
+
+# 2022-02-25 21:54:15.419996
+[[bin]]
+name = "arc091_c"
+path = "src/arc091/c.rs"
+
+# 2022-02-27 17:45:55.322741
+[[bin]]
+name = "arc080_c"
+path = "src/arc080/c.rs"
+
+# 2022-02-27 18:14:51.806916
+[[bin]]
+name = "abc109_c"
+path = "src/abc109/c.rs"
+
+# 2022-03-04 03:39:01.716906
+[[bin]]
+name = "abc241_c"
+path = "src/abc241/c.rs"
+
+# 2022-03-09 02:25:32.030672
+[[bin]]
+name = "abc242_c"
+path = "src/abc242/c.rs"
+
+# 2022-03-09 03:11:26.687330
+[[bin]]
+name = "abc242_d"
+path = "src/abc242/d.rs"
+
+# 2022-03-15 01:00:20.137322
+[[bin]]
+name = "abc243_c"
+path = "src/abc243/c.rs"
+
+# 2022-03-15 03:33:28.896170
+[[bin]]
+name = "abc243_d"
+path = "src/abc243/d.rs"
+
+# 2022-03-15 20:34:57.424905
+[[bin]]
+name = "abc215_c"
+path = "src/abc215/c.rs"
+
+# 2022-03-19 01:06:21.210119
+[[bin]]
+name = "abc211_c"
+path = "src/abc211/c.rs"
+
+# 2022-03-20 01:00:12.673392
+[[bin]]
+name = "abc045_c"
+path = "src/abc045/c.rs"
+
+# 2022-03-20 01:24:34.063530
+[[bin]]
+name = "agc004_a"
+path = "src/agc004/a.rs"
+
+# 2022-03-20 01:44:42.461807
+[[bin]]
+name = "arc121_a"
+path = "src/arc121/a.rs"
+
+# 2022-03-22 14:07:24.851169
+[[bin]]
+name = "abc244_c"
+path = "src/abc244/c.rs"
+
+# 2022-03-23 03:48:31.639140
+[[bin]]
+name = "abc244_d"
+path = "src/abc244/d.rs"
+
+# 2022-03-24 03:24:47.836904
+[[bin]]
+name = "abc204_c"
+path = "src/abc204/c.rs"
+
+# 2022-03-24 03:55:56.971728
+[[bin]]
+name = "abc189_c"
+path = "src/abc189/c.rs"
+
+# 2022-03-24 16:52:06.973433
+[[bin]]
+name = "abc171_c"
+path = "src/abc171/c.rs"
+
+# 2022-03-24 18:40:14.892893
+[[bin]]
+name = "abc171_d"
+path = "src/abc171/d.rs"
+
+# 2022-03-26 01:29:13.014068
+[[bin]]
+name = "abc232_c"
+path = "src/abc232/c.rs"
+
+# 2022-03-30 00:46:26.687527
+[[bin]]
+name = "abc245_c"
+path = "src/abc245/c.rs"
+
+# 2022-04-05 00:55:05.629165
+[[bin]]
+name = "abc246_c"
+path = "src/abc246/c.rs"
+
+# 2022-04-05 22:42:56.476465
+[[bin]]
+name = "abc245_d"
+path = "src/abc245/d.rs"
+
+# 2022-04-05 23:25:35.131324
+[[bin]]
+name = "abc233_b"
+path = "src/abc233/b.rs"
+
+# 2022-04-05 23:42:19.787138
+[[bin]]
+name = "abc221_d"
+path = "src/abc221/d.rs"
+
+# 2022-04-08 02:56:40.604478
+[[bin]]
+name = "abc228_b"
+path = "src/abc228/b.rs"
+
+# 2022-04-09 03:26:04.374708
+[[bin]]
+name = "ihc_main"
+path = "src/ihc/main.rs"
+
+# 2022-04-19 16:23:22.046340
+[[bin]]
+name = "abc247_c"
+path = "src/abc247/c.rs"
+
+# 2022-04-20 21:25:10.945478
+[[bin]]
+name = "abc247_d"
+path = "src/abc247/d.rs"
+
+# 2022-04-20 21:38:01.885607
+[[bin]]
+name = "abc217_d"
+path = "src/abc217/d.rs"
+
+# 2022-04-21 17:18:44.474871
+[[bin]]
+name = "abc205_d"
+path = "src/abc205/d.rs"
+
+# 2022-04-23 23:43:06.539947
+[[bin]]
+name = "abc249_c"
+path = "src/abc249/c.rs"
+
+# 2022-04-26 17:05:58.288257
+[[bin]]
+name = "abc212_c"
+path = "src/abc212/c.rs"
+
+# 2022-05-11 15:33:57.500080
+[[bin]]
+name = "abc250_c"
+path = "src/abc250/c.rs"
+
+# 2022-05-13 01:22:20.375781
+[[bin]]
+name = "abc250_d"
+path = "src/abc250/d.rs"
+
+# 2022-05-24 17:11:17.657552
+[[bin]]
+name = "abc252_c"
+path = "src/abc252/c.rs"
+
+# 2022-05-31 15:35:22.553951
+[[bin]]
+name = "abc253_d"
+path = "src/abc253/d.rs"
+
+# 2022-05-31 16:20:03.805904
+[[bin]]
+name = "abc137_c"
+path = "src/abc137/c.rs"
+
+# 2022-06-02 05:16:50.658862
+[[bin]]
+name = "arc118_a"
+path = "src/arc118/a.rs"
+
+# 2022-07-04 14:02:20.844820
+[[bin]]
+name = "dpまとめ_a"
+path = "src/dpまとめ/a.rs"
+
+[[bin]]
+name = "dpまとめ_b"
+path = "src/dpまとめ/b.rs"
+
+[[bin]]
+name = "dpまとめ_c"
+path = "src/dpまとめ/c.rs"
+
+[[bin]]
+name = "dpまとめ_d"
+path = "src/dpまとめ/d.rs"
+
+# 2022-07-04 14:02:39.104800
+[[bin]]
+name = "dpまとめ_e"
+path = "src/dpまとめ/e.rs"
+
+# 2022-07-05 13:53:15.239455
+[[bin]]
+name = "典型90_h"
+path = "src/典型90/h.rs"
+
+# 2022-07-05 13:53:51.929626
+[[bin]]
+name = "典型90_8"
+path = "src/典型90/8.rs"
+
+# 2022-07-05 15:55:59.754418
+[[bin]]
+name = "典型90_6"
+path = "src/典型90/6.rs"
+
+# 2022-07-07 01:02:45.774876
+[[bin]]
+name = "abc049_c"
+path = "src/abc049/c.rs"
+
+# 2022-07-25 11:13:58.403641
+[[bin]]
+name = "abc261_c"
+path = "src/abc261/c.rs"
+
+# 2022-07-28 12:09:38.264832
+[[bin]]
+name = "abc258_a"
+path = "src/abc258/a.rs"
+
+[[bin]]
+name = "abc258_b"
+path = "src/abc258/b.rs"
+
+[[bin]]
+name = "abc258_c"
+path = "src/abc258/c.rs"
+
+[[bin]]
+name = "abc258_d"
+path = "src/abc258/d.rs"
+
+# 2022-08-10 17:27:47.245220
+[[bin]]
+name = "abc262_c"
+path = "src/abc262/c.rs"
+
+# 2022-08-10 19:12:16.284019
+[[bin]]
+name = "abc263_c"
+path = "src/abc263/c.rs"
+
+# 2022-08-13 16:22:30.199625
+[[bin]]
+name = "abc256_c"
+path = "src/abc256/c.rs"
+
+# 2022-08-15 01:16:57.632851
+[[bin]]
+name = "abc257_c"
+path = "src/abc257/c.rs"
+
+# 2022-08-24 16:45:24.888364
+[[bin]]
+name = "arc145_a"
+path = "src/arc145/a.rs"
+

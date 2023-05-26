@@ -1,0 +1,1673 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'test_1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=test_1",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "test_1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'test_1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=test_1",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "test_1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc232_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc232_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc232_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc232_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc232_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc232_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc233_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc233_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc233_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc233_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc233_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc233_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_1'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_1",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_1'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_1",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_1",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_2'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_2",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_2'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_2",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_2",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_4'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_4",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_4",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_4'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_4",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_4",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_10'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_10",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_10'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_10",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_10",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_22'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_22",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_22",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_22'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_22",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_22",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_24'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_24",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_24",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_24'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_24",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_24",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_27'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_27",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_27",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_27'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_27",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_27",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_33'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_33",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_33",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_33'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_33",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_33",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_38'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_38",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_38",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_38'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_38",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_38",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_44'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_44",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_44",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_44'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_44",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_44",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_46'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_46",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_46",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_46'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_46",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_46",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_48'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_48",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_48",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_48'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_48",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_48",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_50'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_50",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_50",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_50'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_50",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_50",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc169_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc169_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc169_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc169_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc169_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc169_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc190_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc190_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc190_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc190_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc190_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc190_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc197_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc197_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc197_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc197_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc197_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc197_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc064_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc064_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc064_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc064_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc064_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc064_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'arc077_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=arc077_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "arc077_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'arc077_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=arc077_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "arc077_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc077_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc077_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc077_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc077_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc077_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc077_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'libs_bisect'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=libs_bisect",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "libs_bisect",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'libs_bisect'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=libs_bisect",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "libs_bisect",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc177_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc177_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc177_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc177_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc177_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc177_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc182_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc182_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc182_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc182_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc182_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc182_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_14'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_14",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_14",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_14'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_14",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_14",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc178_e'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc178_e",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc178_e",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc178_e'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc178_e",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc178_e",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc091_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc091_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc091_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc091_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc091_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc091_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc051_b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc051_b",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc051_b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc051_b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc051_b",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc051_b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc085_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc085_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc085_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc085_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc085_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc085_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc095_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc095_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc095_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc095_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc095_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc095_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc112_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc112_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc112_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc112_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc112_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc112_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc234_b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc234_b",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc234_b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc234_b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc234_b",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc234_b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc235_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc235_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc235_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc235_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc235_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc235_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc234_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc234_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc234_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc234_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc234_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc234_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc234_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc234_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc234_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc234_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc234_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc234_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc233_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc233_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc233_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc233_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc233_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc233_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc231_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc231_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc231_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc231_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc231_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc231_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc221_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc221_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc221_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc221_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc221_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc221_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc220_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc220_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc220_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc220_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc220_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc220_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc219_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc219_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc219_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc219_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc219_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc219_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc216_c'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc216_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc216_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc216_c'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc216_c",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc216_c",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'abc220_d'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=abc220_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc220_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'abc220_d'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=abc220_d",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "abc220_d",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable '典型90_16'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=典型90_16",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_16",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable '典型90_16'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=典型90_16",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "典型90_16",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'atcoder'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=atcoder",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "atcoder",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'atcoder'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=atcoder",
+                    "--package=atcoder"
+                ],
+                "filter": {
+                    "name": "atcoder",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
